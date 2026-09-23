@@ -35,10 +35,10 @@ entities:
         name: temperature
         unit: C
         range:
-          min: 40
-          max: 80
+          min: 30
+          max: 75
         mapping:
-          - step: 10
+          - step: 1
       - id: 10
         type: integer
         name: current_temperature
