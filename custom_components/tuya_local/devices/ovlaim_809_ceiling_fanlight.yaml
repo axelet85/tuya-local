@@ -45,8 +45,6 @@ entities:
             value: fresh
           - dps_val: nature
             value: nature
-          - dps_val: sleep
-            value: sleep
       - id: 62
         name: speed
         type: integer
@@ -58,13 +56,16 @@ entities:
         name: direction
         type: string
         optional: true
-  - entity: sensor
-    translation_key: time_remaining
+  - entity: number
+    translation_key: timer
     class: duration
-    category: diagnostic
+    category: config
     dps:
       - id: 64
+        name: value
         type: integer
         optional: true
-        name: sensor
         unit: min
+        range:
+          min: 0
+          max: 540
