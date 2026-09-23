@@ -20,8 +20,16 @@ entities:
         mapping:
           - dps_val: jiheat
             value: performance
-          - dps_val: maneco
+            icon: "mdi:flash"
+          - dps_val: eco
             value: eco
+            icon: "mdi:leaf"
+          - dps_val: manmenu
+            value: antibacterial
+            icon: "mdi:bacteria"
+          - dps_val: highwarm
+            value: smart
+            icon: "mdi:brain"
       - id: 9
         type: integer
         name: temperature
