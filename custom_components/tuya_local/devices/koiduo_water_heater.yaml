@@ -25,11 +25,11 @@ entities:
             value: Eco
             icon: "mdi:leaf"
           - dps_val: manmenu
-            value: Antibacterias
-            icon: "mdi:bacteria"
-          - dps_val: highwarm
             value: Inteligente
             icon: "mdi:brain"
+          - dps_val: highwarm
+            value: Antibacterias
+            icon: "mdi:bacteria"
       - id: 9
         type: integer
         name: temperature
