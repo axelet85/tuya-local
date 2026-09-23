@@ -19,9 +19,17 @@ entities:
         name: operation_mode
         mapping:
           - dps_val: jiheat
-            value: performance
-          - dps_val: maneco
-            value: eco
+            value: Calentamiento instantáneo
+            icon: "mdi:flash"
+          - dps_val: eco
+            value: Eco
+            icon: "mdi:leaf"
+          - dps_val: manmenu
+            value: Antibacterias
+            icon: "mdi:bacteria"
+          - dps_val: highwarm
+            value: Inteligente
+            icon: "mdi:brain"
       - id: 9
         type: integer
         name: temperature
